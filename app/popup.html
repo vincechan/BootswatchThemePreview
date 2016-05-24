@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Preview a bootstrap site with a bootswatch theme</title>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <style>
+        body { width:350px; margin:10px; }
+    </style>
+</head>
+
+<body>
+ 
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="bootswatch-theme-select">Bootswatch Theme</label>
+                    <div id="bootswatch-theme-container">               
+
+                    </div>                        
+                </div>            
+                <button id="apply-button" class="btn btn-block btn-success">Apply Theme</button>   
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popup.js"></script>
+
+</body>
+
+</html>
