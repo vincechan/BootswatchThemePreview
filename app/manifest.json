@@ -3,7 +3,7 @@
   "name": "Bootswatch Theme Preview",
   "short_name": "BootswatchThemePreview",
   "description": "Preview a bootstrap site with a bootswatch theme.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "background": {
     "scripts": ["js/background.js"]
   },  
@@ -18,5 +18,5 @@
   },  
   "permissions" : [
     "activeTab"
-  ]    
+  ]
 }
