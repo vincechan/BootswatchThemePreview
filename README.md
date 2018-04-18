@@ -11,3 +11,6 @@ Once the extension is installed, you will see the extension's icon showing on th
 
 ## Building the Extension
 Information on how the extension was built can be found [here](https://www.codeproject.com/Articles/1106000/Bootswatch-Theme-Preview-Google-Chrome-Extension).
+
+## License
+[MIT](/LICENSE)
